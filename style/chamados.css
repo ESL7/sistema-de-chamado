@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+@font-face{
+    font-family: "MuseoSans";
+    src: url("fontes/museosans.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "FuturaPT";
+    src: url("fontes/FuturaPT.otf") format("opentype");
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    background: #1c2133;
+}
+
+header{
+    padding: 30px 0;
+    height: 37px;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    font-family: MuseoSans;
+    font-size: 22px;
+    letter-spacing: 3px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+header span.logo{
+    padding-top: 7px;
+    display: block;
+}
+
+div#formulario{
+    margin-top: 30px;
+}
+
+div#formulario form{
+    width: 350px;
+    height: 290;
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px 50px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .3);
+    margin: auto;
+}
+
+div#formulario form div#linha label {
+    font-family: FuturaPT;
+    font-size: 20px;
+    color: #828282;
+}
+
+div#formulario form div#linha input {
+    width: calc(100% - 16px);
+    background: #eee;
+    border: 2px solid #eee;
+    border-radius: 2px;
+    padding: 10px 6px;
+}   
+
+div#formulario form div#linha select {
+    width: 100%;
+    font-family: FuturaPT;
+    font-size: 20px;
+    padding: 6px;
+    color: #828282;
+    border: 2px solid #eee;
+    border-radius: 2px;
+    background:#eee;
+}
+
+div#formulario form div#linha textarea {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+
+div#formulario form div#button{
+    text-align: center;
+}
+
+div#formulario form div#button button{
+    margin-top: 15px;
+    font-family: MuseoSans;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 14px 40px;
+    background: #d29f4e;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
